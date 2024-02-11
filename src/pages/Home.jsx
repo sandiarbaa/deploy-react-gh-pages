@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="p-5">
+    <div className="min-h-screen flex flex-col justify-center items-center ">
       <h1 className="text-3xl font-bold">Home</h1>
       <Link
         to="/deploy-react-gh-pages/about"
